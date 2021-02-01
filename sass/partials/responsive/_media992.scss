@@ -1,0 +1,13 @@
+@media only screen and(max-width:992px){
+    #ab{
+
+        .half_bg_theme{
+            &::after{
+                width: 50%;
+                height: 46% !important;
+               
+            }
+        }
+    }
+    
+}
