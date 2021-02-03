@@ -215,6 +215,68 @@
          </div>
       </section>
       <!-- Stories End -->
+      <!-- End section -->
+      <section id="contact">
+         <div class="row">
+            <div class="heading_main text_align_center">
+               <h2><span class="theme_color">Contact </span> us</h2>
+            </div>
+         </div>
+      </section>
+      <!-- section -->
+      <div class="section contact_section" style="background-image: url(img/contact/contact_bg.png);">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-6 padding_0">
+                  <div class="full">
+                     <div class="row">
+                        <div class="col-lg-12">
+                           <div class="full map_section">
+                              <div id="map">
+                                 <div id="googleMap" style="width:100%;height:440px;">
+                                 <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6078.9310940031055!2d49.8410052!3d40.3763735!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92f42463a7364219!2sAlpha%20Gym!5e0!3m2!1sen!2s!4v1612347715562!5m2!1sen!2s"
+                                    width="750" height="700" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                                    tabindex="0"></iframe>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 padding_0">
+                  <div class="full">
+                     <div class="row">
+                        <div class="col-md-12 col-lg-10 offset-lg-1">
+                           <div class="full contact_form">
+                              <form class="contact_form_inner" action="#">
+                                 <fieldset>
+                                    <div class="field">
+                                       <input type="text" name="name" placeholder="Your name" />
+                                    </div>
+                                    <div class="field">
+                                       <input type="email" name="email" placeholder="Email" />
+                                    </div>
+                                    <div class="field">
+                                       <input type="text" name="phone_no" placeholder="Phone number" />
+                                    </div>
+                                    <div class="field">
+                                       <textarea placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="field center">
+                                       <button class="margin-top_30">SEND</button>
+                                    </div>
+                                 </fieldset>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
    </main>
 
 
@@ -223,6 +285,19 @@
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
    <script src="js/main.js"></script>
+   <script>
+      $(document).ready(function () {
+         $('#sidebarCollapse').on('click', function () {
+            $('#sidebar, #content').toggleClass('active');
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+         });
+      });
+   </script>
+   <!-- google map js -->
+   <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+   </script>
+   <!-- end google map js -->
 </body>
-
 </html>
