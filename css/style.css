@@ -142,20 +142,20 @@ nav.nav-scroll {
   background-color: rgba(3, 3, 3, 0.46) !important;
 }
 
-#ab .layout_padding {
+#fitness .layout_padding {
   padding-top: 75px;
 }
 
-#ab .section {
+#fitness .section {
   float: left;
   width: 100%;
 }
 
-#ab .half_bg_theme {
+#fitness .half_bg_theme {
   position: relative;
 }
 
-#ab .half_bg_theme::after {
+#fitness .half_bg_theme::after {
   width: 50%;
   height: 80%;
   background: #0c9;
@@ -166,12 +166,12 @@ nav.nav-scroll {
   z-index: 4;
 }
 
-#ab .half_bg_theme .full {
+#fitness .half_bg_theme .full {
   float: left;
   width: 100%;
 }
 
-#ab .half_bg_theme .full img {
+#fitness .half_bg_theme .full img {
   position: relative;
   right: 15px;
   -webkit-box-shadow: 0px 0 5px 0 #888888;
@@ -181,22 +181,22 @@ nav.nav-scroll {
   max-height: 100%;
 }
 
-#ab .half_bg_theme .paddding_left_15 {
+#fitness .half_bg_theme .paddding_left_15 {
   padding-left: 15px;
 }
 
-#ab .half_bg_theme .paddding_left_15 .heading_main h2 {
+#fitness .half_bg_theme .paddding_left_15 .heading_main h2 {
   font-size: 3rem;
   font-weight: 400;
 }
 
-#ab .half_bg_theme .paddding_left_15 .heading_main h2 .theme_color {
+#fitness .half_bg_theme .paddding_left_15 .heading_main h2 .theme_color {
   color: #00cc99;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-#ab .half_bg_theme .paddding_left_15 p {
+#fitness .half_bg_theme .paddding_left_15 p {
   margin-top: 40px;
   margin-bottom: 4rem;
   font-size: 20px;
@@ -204,7 +204,7 @@ nav.nav-scroll {
   color: #4a4a49;
 }
 
-#ab .half_bg_theme .paddding_left_15 a {
+#fitness .half_bg_theme .paddding_left_15 a {
   width: 195px;
   height: 55px;
   float: left;
@@ -219,15 +219,15 @@ nav.nav-scroll {
   color: black;
 }
 
-#ab .half_bg_theme .paddding_left_15 a:hover {
+#fitness .half_bg_theme .paddding_left_15 a:hover {
   color: #00cc99;
 }
 
-#Best .container {
+#Services .container {
   max-width: 1140px;
 }
 
-#Best h2 {
+#Services h2 {
   margin-top: 60px !important;
   margin-bottom: 30px !important;
   left: 17px;
@@ -236,41 +236,41 @@ nav.nav-scroll {
   font-weight: 400;
   padding: 0;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   position: relative;
   text-transform: uppercase;
   line-height: 52px !important;
 }
 
-#Best h2 .theme_color {
+#Services h2 .theme_color {
   text-transform: uppercase;
   font-weight: 700;
   color: #00cc99;
 }
 
-#Best .service_pro_section {
+#Services .service_pro_section {
   background: #0c9;
   border-left: solid #fff 15px;
   border-right: solid #fff 15px;
   padding: 80px;
 }
 
-#Best .service_pro_section .services_list {
+#Services .service_pro_section .services_list {
   margin-top: 65px;
 }
 
-#Best .service_pro_section .services_list ul {
+#Services .service_pro_section .services_list ul {
   list-style: none;
   line-height: 2;
 }
 
-#Best .service_pro_section .services_list ul li {
+#Services .service_pro_section .services_list ul li {
   font-size: 25px;
   text-transform: none;
   color: #fff;
 }
 
-#Best .service_pro_section a {
+#Services .service_pro_section a {
   width: 195px;
   height: 55px;
   float: left;
@@ -286,29 +286,144 @@ nav.nav-scroll {
   margin-left: 45px;
 }
 
-#Best .service_pro_section a:hover {
+#Services .service_pro_section a:hover {
   color: #00cc99;
 }
 
-#Best .service_pro_section .text_align_right {
+#Services .service_pro_section .text_align_right {
   text-align: right;
+}
+
+#popular {
+  height: 120vh;
+  width: 100%;
+  background-position: center center;
+  margin-top: 70px;
+  padding-top: 70px;
+}
+
+#popular h2 {
+  margin-top: 75px;
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  position: relative;
+  text-transform: uppercase;
+  line-height: 52px !important;
+}
+
+#popular h2 .theme_color {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #00cc99;
+}
+
+#stories {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+#stories .container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#stories .container-fluid .white_bg {
+  background: #fff;
+  width: 90%;
+  height: 72vh;
+  margin: 0 5%;
+  -webkit-box-shadow: 0 0 25px #888888;
+          box-shadow: 0 0 25px #888888;
+  padding: 40px 30px;
+}
+
+#stories .container-fluid .white_bg .heading_main {
+  padding-left: 15px;
+}
+
+#stories .container-fluid .white_bg .heading_main h2 {
+  font-size: 45px;
+  letter-spacing: -0.5px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  text-transform: uppercase;
+  line-height: 52px !important;
+}
+
+#stories .container-fluid .white_bg .heading_main h2 span {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #00cc99;
+}
+
+#stories .container-fluid .white_bg p {
+  padding-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #4a4a49;
+}
+
+#stories .container-fluid .white_bg a {
+  width: 195px;
+  height: 55px;
+  float: left;
+  text-align: center;
+  line-height: 55px;
+  border: solid #00cc99 1px;
+  font-size: 18px;
+  margin-top: 10px;
+  background: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+#stories .container-fluid .white_bg a:hover {
+  color: #00cc99;
+}
+
+#stories .container-fluid .white_bg .img-responsive {
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 1200px) {
   .readmore_bt {
     top: 700px !important;
   }
+  #stories .container-fluid .white_bg {
+    height: 100vh;
+  }
+  #stories .container-fluid .white_bg .img-responsive {
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
-  #ab .half_bg_theme::after {
+  #fitness .half_bg_theme::after {
     width: 50%;
     height: 46% !important;
+  }
+  #stories .container-fluid .white_bg {
+    height: 160vh;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  #ab .half_bg_theme::after {
+  #fitness .half_bg_theme::after {
     width: 50%;
     height: 46% !important;
   }
@@ -317,5 +432,11 @@ nav.nav-scroll {
 @media only screen and (max-width: 576px) {
   .Myslider .Read .slider-text {
     font-size: 90px !important;
+  }
+  #stories .container-fluid .white_bg {
+    height: 138vh;
+  }
+  #stories .container-fluid .white_bg .img-responsive {
+    margin-top: 32px;
   }
 }

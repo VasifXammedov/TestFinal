@@ -1,0 +1,66 @@
+#Services {
+  .container {
+    max-width: 1140px;
+  }
+
+  h2 {
+    margin-top: 60px !important;
+    margin-bottom: 30px !important;
+    left: 17px;
+    font-size: 45px;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    text-transform: uppercase;
+    line-height: 52px !important;
+    .theme_color {
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #00cc99;
+    }
+  }
+  .service_pro_section {
+    background: #0c9;
+    border-left: solid #fff 15px;
+    border-right: solid #fff 15px;
+    padding: 80px;
+
+    .services_list {
+      margin-top: 65px;
+      ul {
+        list-style: none;
+        line-height: 2;
+        li {
+          font-size: 25px;
+          text-transform: none;
+          color: #fff;
+        }
+      }
+    }
+
+    a {
+      width: 195px;
+      height: 55px;
+      float: left;
+      text-align: center;
+      line-height: 55px;
+      border: solid #00cc99 1px;
+      font-size: 18px;
+      margin-top: 30px;
+      background: #fff;
+      font-weight: 500;
+      text-decoration: none;
+      color: black;
+      margin-left: 45px;
+      &:hover {
+        color: #00cc99;
+      }
+    }
+    .text_align_right {
+      text-align: right;
+    }
+  }
+}

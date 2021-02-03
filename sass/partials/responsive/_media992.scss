@@ -1,5 +1,5 @@
 @media only screen and(max-width:992px){
-    #ab{
+    #fitness{
 
         .half_bg_theme{
             &::after{
@@ -9,5 +9,8 @@
             }
         }
     }
+    #stories .container-fluid .white_bg {
+    height: 160vh;
+}
     
 }
