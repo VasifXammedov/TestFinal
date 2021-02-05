@@ -534,6 +534,78 @@ nav.nav-scroll {
           justify-content: center;
 }
 
+.footer-box {
+  background-color: black;
+}
+
+.footer-box .footer-img {
+  padding: 20px 5px !important;
+}
+
+.footer-box p {
+  color: white;
+}
+
+.footer-box ul {
+  list-style: none;
+}
+
+.footer-box ul li {
+  color: white;
+}
+
+.footer-box .social_icon a {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.footer-box .footer_blog h3 {
+  color: #ddd !important;
+  padding: 27px 39px;
+}
+
+.footer-box .footer_blog p {
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #ddd !important;
+  padding: 17px 42px;
+}
+
+.footer-box .social_icon {
+  list-style: none;
+}
+
+.footer-box .footer-box p {
+  padding: 20px 0;
+}
+
+.footer-box .full .timetable_blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0;
+}
+
+.footer_bottom {
+  background: #088a6b;
+  padding: 0 0;
+  width: 100%;
+  height: 60px;
+  color: white;
+}
+
+.footer_bottom .crp {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media only screen and (max-width: 1200px) {
   .readmore_bt {
     top: 700px !important;
