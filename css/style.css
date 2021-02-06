@@ -425,6 +425,7 @@ nav.nav-scroll {
 }
 
 #popular .row .icon5 {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -434,6 +435,7 @@ nav.nav-scroll {
 }
 
 #popular .row .prev {
+  position: absolute;
   background: #00cc99;
   opacity: 1;
   width: 85px;
@@ -446,6 +448,7 @@ nav.nav-scroll {
 }
 
 #popular .row .prev i {
+  color: white;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -458,6 +461,7 @@ nav.nav-scroll {
 }
 
 #popular .row .next {
+  position: absolute;
   background: #00cc99;
   opacity: 1;
   width: 85px;
@@ -470,6 +474,7 @@ nav.nav-scroll {
 }
 
 #popular .row .next i {
+  color: white;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;

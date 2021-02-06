@@ -138,10 +138,12 @@
     }
     .row{
       .icon5{
+        position: relative;
         display: flex;
         justify-content: space-between;
       }
       .prev{
+        position: absolute;
         background: #00cc99;
         opacity: 1;
         width: 85px;
@@ -152,14 +154,17 @@
         left: -120px;
         text-decoration: none;
          i { 
+           color: white;
             font: normal normal normal 14px/1 FontAwesome;
             font-size: inherit;
             text-rendering: auto;
              display: flex;
               align-items: center;
+              
         }
       }
       .next{
+        position: absolute;
         background: #00cc99;
         opacity: 1;
         width: 85px;
@@ -171,6 +176,7 @@
         text-decoration: none;
 
          i {
+            color: white;
             font: normal normal normal 14px/1 FontAwesome;
             font-size: inherit;
             text-rendering: auto;
