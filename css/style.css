@@ -582,7 +582,7 @@ nav.nav-scroll {
   font-weight: 400;
   padding: 0;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   position: relative;
   text-transform: uppercase;
   line-height: 52px !important;
@@ -768,6 +768,23 @@ nav.nav-scroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+#inner_page_banner {
+  height: 50vh;
+}
+
+#inner_page_banner h3 {
+  color: #fff;
+  font-size: 40px;
+  padding-top: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#fitness {
+  padding: 20px 0;
 }
 
 @media only screen and (max-width: 1200px) {
