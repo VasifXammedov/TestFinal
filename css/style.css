@@ -819,6 +819,20 @@ nav.nav-scroll {
   margin-top: 20px;
 }
 
+#trainer .single-trainer .single-trainer-img {
+  overflow: hidden;
+}
+
+#trainer .single-trainer .single-trainer-img a img {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+#trainer .single-trainer .single-trainer-img a img:hover {
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
 #trainer .single-trainer .single-trainer-content {
   padding: 20px 0;
 }
@@ -1066,7 +1080,6 @@ html {
 }
 
 body {
-  background: #c1bdba;
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -1247,6 +1260,88 @@ textarea {
 .forgot {
   margin-top: -20px;
   text-align: right;
+}
+
+article {
+  padding: 75px 0;
+}
+
+article .all {
+  border-collapse: collapse;
+  font-size: 0.95em;
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+  min-width: 400px;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.45);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.45);
+  text-align: center;
+}
+
+article h1 {
+  padding-bottom: 3px;
+  scroll-padding-top: 3px;
+  text-align: center;
+}
+
+article .all th, article .all td {
+  padding: 15px 20px;
+}
+
+article .days {
+  border-top: 2px solid black;
+}
+
+article .t {
+  border-left: 2px solid black;
+}
+
+article .s {
+  border-right: 2px solid black;
+}
+
+article .time, article .t {
+  border-left: 2px solid black;
+}
+
+article .lastrows {
+  border-right: 2px solid black;
+}
+
+article .lr {
+  border-bottom: 2px solid black;
+}
+
+article tbody tr:nth-of-type(odd) {
+  background-color: lightgrey;
+}
+
+@media (max-width: 500px) {
+  article h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+    text-align: center;
+  }
+  article .all {
+    border-collapse: collapse;
+    font-size: 0.8em;
+    border-radius: 2px 2px 0 0;
+    overflow: hidden;
+    min-width: 400px;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    text-align: center;
+  }
+  article .all th, article .all td {
+    padding: 10px 15px;
+  }
+}
+
+article th {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 @media only screen and (max-width: 1200px) {
