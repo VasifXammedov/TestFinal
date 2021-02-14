@@ -1,19 +1,54 @@
-@media only screen and(max-width:576px){
-    
-    .Myslider{
-        .Read{
-            .slider-text{  
-               
-                font-size: 90px !important;
-                
-            }
-        }
+@media only screen and(max-width:576px) {
+  .Myslider {
+    .Read {
+      .slider-text {
+        font-size: 54px !important;
+        margin-top: -68px;
+      }
     }
-    #stories .container-fluid .white_bg{
-        height: 138vh;
-        .img-responsive {
-    margin-top: 32px;
-}
-    } 
-    
+  }
+  #stories .container-fluid .white_bg {
+    height: 138vh;
+    .img-responsive {
+      margin-top: 32px;
+    }
+  }
+  #fitness{
+      h2{
+          font-size: 40px !important;
+          margin-top: 20px !important;
+      }
+  }
+  #Services{
+      h2{
+          font-size: 33px;
+          text-align: center;
+      }
+  }
+  #popular {
+    height: 400vh;
+    h2 {
+      font-size: 33px;
+    }
+  }
+  #stories {
+    .white_bg {
+      height: 190vh !important;
+      h2 {
+        font-size: 33px !important;
+      }
+    }
+  }
+  #trainer {
+    h2 {
+      font-size: 35px;
+    }
+    .single-trainer {
+      a {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
 }

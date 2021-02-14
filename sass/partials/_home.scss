@@ -1,40 +1,46 @@
-.Myslider{
-    position: relative;
-    img{
-        height: 100vh;
-        width: 100%;
+.Myslider {
+  position: relative;
+  img {
+    height: 100vh;
+    width: 100%;
+  }
+  .Read {
+    padding-left: 0;
+    .slider-text {
+      color: #ffff;
+      position: absolute;
+      z-index: 1;
+      top: 290px;
+      left: 14%;
+      font-size: 100px;
+      font-weight: 400;
+      padding: 0;
+      text-transform: uppercase;
+      .theme_color {
+        color: #00cc99;
+        font-weight: 700;
+      }
     }
-    .Read{
-        padding-left: 0;
-        .slider-text{  
-            color:#ffff;
-            position: absolute;
-            z-index: 1;
-            top: 290px;
-            left:14%; 
-            font-size: 100px;
-            font-weight: 400;
-            padding: 0;
-            text-transform: uppercase;
-            .theme_color{
-                color:#00cc99 ;
-                font-weight: 700;
-            }
-        }
-            .readmore_bt{
-                color: white;
-                position: absolute;
-                z-index: 2;
-                top: 540px;
-                left: 14%; 
-                text-decoration: none;
-                font-size: 24px;
-                font-weight: 400;
-                &:hover{
-                    color: #00cc99;
-                }
-            }
+    .readmore_bt {
+      color: white;
+      position: absolute;
+      z-index: 2;
+      top: 540px;
+      left: 14%;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 400;
+      &:hover {
+        color: #00cc99;
+      }
     }
-   
+  }
+  .carousel-indicators {
+    bottom: 15px;
+    li {
+      width: 36px;
+      height: 8px;
+      border-radius: 43%;
+    }
+  }
 }
-

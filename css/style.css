@@ -43,6 +43,16 @@
   color: #00cc99;
 }
 
+.Myslider .carousel-indicators {
+  bottom: 15px;
+}
+
+.Myslider .carousel-indicators li {
+  width: 36px;
+  height: 8px;
+  border-radius: 43%;
+}
+
 nav {
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
@@ -214,7 +224,6 @@ nav.nav-scroll {
   line-height: 55px;
   border: solid #00cc99 1px;
   font-size: 18px;
-  margin-top: 10px;
   background: #fff;
   font-weight: 500;
   text-decoration: none;
@@ -1375,12 +1384,39 @@ article th {
 
 @media only screen and (max-width: 576px) {
   .Myslider .Read .slider-text {
-    font-size: 90px !important;
+    font-size: 54px !important;
+    margin-top: -68px;
   }
   #stories .container-fluid .white_bg {
     height: 138vh;
   }
   #stories .container-fluid .white_bg .img-responsive {
     margin-top: 32px;
+  }
+  #fitness h2 {
+    font-size: 40px !important;
+    margin-top: 20px !important;
+  }
+  #Services h2 {
+    font-size: 33px;
+    text-align: center;
+  }
+  #popular {
+    height: 400vh;
+  }
+  #popular h2 {
+    font-size: 33px;
+  }
+  #stories .white_bg {
+    height: 190vh !important;
+  }
+  #stories .white_bg h2 {
+    font-size: 33px !important;
+  }
+  #trainer h2 {
+    font-size: 35px;
+  }
+  #trainer .single-trainer a img {
+    width: 100%;
   }
 }
