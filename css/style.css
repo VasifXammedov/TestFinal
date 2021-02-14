@@ -53,6 +53,35 @@
   border-radius: 43%;
 }
 
+#inner_page_banner {
+  position: relative;
+}
+
+#inner_page_banner .full {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#inner_page_banner .full h3 {
+  position: absolute;
+  z-index: 20;
+}
+
+#inner_page_banner .full::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50vh;
+}
+
 nav {
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
@@ -1351,6 +1380,80 @@ article th {
   border-left: 2px solid black;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+}
+
+.trainer-details .trainer-details-content h2 {
+  color: #303030;
+  font-family: "Open Sans",sans-serif;
+  font-size: 32px;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.trainer-details .trainer-details-content h5 {
+  font-size: 22px;
+  color: #929292;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.trainer-details .trainer-details-content h4 {
+  font-size: 24px;
+  color: #303030;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.trainer-details .trainer-details-content p {
+  font-size: 14px;
+  color: #606060;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 38px;
+}
+
+.trainer-details .trainer-details-content ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+.trainer-details .trainer-details-content ul li {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #606060;
+}
+
+.trainer-details .trainer-details-content ul li span {
+  font-size: 14px;
+  color: #303030;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.trainer-details .trainer-details-content .readmore_bt {
+  width: 195px;
+  height: 55px;
+  float: left;
+  text-align: center;
+  line-height: 55px;
+  border: solid #00cc99 1px;
+  font-size: 20px;
+  margin-top: 10px;
+  background: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.trainer-details .trainer-details-content .readmore_bt:hover {
+  color: #00cc99;
 }
 
 @media only screen and (max-width: 1200px) {

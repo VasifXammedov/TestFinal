@@ -45,7 +45,17 @@
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
-                                    <li><a href="trainer.html">Trainers</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link p-0 m-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Trainers
+                                        </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" style="background-color: rgb(210, 210, 218);" href="Trainer.html">Trainers</a></li>
+                                        <li><a class="dropdown-item" style="background-color: rgb(210, 210, 218);" href="TrainerDetail.html">Trainers
+                                                Details</a></li>
+                                    </ul>
+                                    </li>
                                     <li><a href="services.html">Services</a></li>
                                     <li><a href="table.html">Table</a></li>
                                     <li><a href="contact.html">Contact us</a></li>
@@ -72,16 +82,8 @@
             </div>
         </div>
     </div>
-        <!-- Contact section -->
-        <section id="contact" class="mt-5" style="overflow: hidden;">
-            <div class="row">
-                <div class="heading_main text_align_center">
-                    <h2><span class="theme_color">Contact </span> us</h2>
-                </div>
-            </div>
-        </section>
-        <!-- section -->
-        <div class="section contact_section"
+     
+        <div class="section contact_section mt-5 mb-5"
             style="background-image: url(img/contact/contact_bg.png); overflow: hidden;">
             <div class="container-fluid">
                 <div class="row">
@@ -215,6 +217,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script>
         $(document).ready(function () {

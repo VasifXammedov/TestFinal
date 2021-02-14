@@ -44,3 +44,27 @@
     }
   }
 }
+#inner_page_banner {
+  position: relative;
+  .full{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+     h3 {
+    position: absolute;
+    z-index: 20;
+  }
+  &::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50vh;
+    
+  }
+  }
+ 
+}
