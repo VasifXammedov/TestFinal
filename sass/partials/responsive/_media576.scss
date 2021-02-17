@@ -26,7 +26,7 @@
     }
   }
   #popular {
-    height: 400vh;
+    height: 430vh;
     h2 {
       font-size: 33px;
     }
@@ -71,33 +71,27 @@
       }
     }
   }
-  .footer-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .footer-img {
-      text-align: center;
-    }
-    .footer-adress {
-      .footer_blog {
-        text-align: center;
-       .footer-text{
-         p {
-          text-align: center;
-        }
-       }
-        }
-       
-      }
-      .full {
-        padding: 0 152px;
-      }
+
+  .full {
+    h3 {
+      display: flex !important;
+      justify-content: center !important;
     }
   }
-  .footer_blog .full .white_fonts {
-    // display: inline;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  .footer-text {
+    text-align: center;
   }
 
+  .footer_blog {
+    text-align: center;
+  }
+
+  .social_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-img {
+    text-align: center;
+  }
+}

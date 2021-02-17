@@ -1,12 +1,84 @@
-@media only screen and(max-width:768px){
-    #fitness{
-
-        .half_bg_theme{
-            &::after{
-                width: 50%;
-                height: 46% !important;
-               
-            }
+@media only screen and(max-width:768px) {
+  .Myslider {
+    .carousel-inner {
+      .Read {
+        .slider-text {
+          top: 221px;
+          left: 7%;
+          font-size: 63px;
         }
+        .readmore_bt {
+          top: 384px !important;
+          margin-left: -47px;
+        }
+      }
     }
+  }
+  #Services {
+    .heading_main {
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+  #popular {
+    height: 440vh;
+    .image {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  }
+  #stories {
+    .white_bg {
+      height: 210vh !important;
+    }
+  }
+  #trainer {
+    .single-trainer {
+      a {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #contact {
+    .heading_main {
+      h2 {
+        font-size: 38px;
+      }
+    }
+  }
+  .contact_section {
+    height: 200vh !important;
+    margin-top: 3px;
+    #map {
+      iframe {
+        width: 100%;
+      }
+    }
+  }
+  .full {
+    h3 {
+      display: flex !important;
+      justify-content: center !important;
+    }
+  }
+  .footer-text {
+    text-align: center;
+  }
+
+  .footer_blog {
+    text-align: center;
+  }
+
+  .social_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-img {
+    text-align: center;
+  }
 }
