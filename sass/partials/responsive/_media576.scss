@@ -30,6 +30,11 @@
     h2 {
       font-size: 33px;
     }
+    .image {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
   }
   #stories {
     .white_bg {
@@ -51,4 +56,48 @@
       }
     }
   }
-}
+  #contact {
+    .heading_main {
+      h2 {
+        font-size: 38px;
+      }
+    }
+  }
+  .contact_section {
+    height: 197vh;
+    #map {
+      iframe {
+        width: 100%;
+      }
+    }
+  }
+  .footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .footer-img {
+      text-align: center;
+    }
+    .footer-adress {
+      .footer_blog {
+        text-align: center;
+       .footer-text{
+         p {
+          text-align: center;
+        }
+       }
+        }
+       
+      }
+      .full {
+        padding: 0 152px;
+      }
+    }
+  }
+  .footer_blog .full .white_fonts {
+    // display: inline;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+

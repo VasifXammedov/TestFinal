@@ -1108,7 +1108,9 @@ nav.nav-scroll {
   top: 10px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -1117,15 +1119,11 @@ html {
   overflow-y: scroll;
 }
 
-body {
-  font-family: 'Titillium Web', sans-serif;
-}
-
 a {
   text-decoration: none;
   color: #1ab188;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 a:hover {
@@ -1165,8 +1163,8 @@ a:hover {
   width: 50%;
   text-align: center;
   cursor: pointer;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .tab-group li a:hover {
@@ -1222,7 +1220,8 @@ label.highlight {
   color: #ffffff;
 }
 
-input, textarea {
+input,
+textarea {
   font-size: 22px;
   display: block;
   width: 100%;
@@ -1233,13 +1232,14 @@ input, textarea {
   border: 1px solid #a0b3b0;
   color: #ffffff;
   border-radius: 0;
-  -webkit-transition: border-color .25s ease, -webkit-box-shadow .25s ease;
-  transition: border-color .25s ease, -webkit-box-shadow .25s ease;
-  transition: border-color .25s ease, box-shadow .25s ease;
-  transition: border-color .25s ease, box-shadow .25s ease, -webkit-box-shadow .25s ease;
+  -webkit-transition: border-color 0.25s ease, -webkit-box-shadow 0.25s ease;
+  transition: border-color 0.25s ease, -webkit-box-shadow 0.25s ease;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, -webkit-box-shadow 0.25s ease;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: 0;
   border-color: #1ab188;
 }
@@ -1278,7 +1278,7 @@ textarea {
   font-size: 2rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   background: #1ab188;
   color: #ffffff;
   -webkit-transition: all 0.5s ease;
@@ -1510,6 +1510,15 @@ article th {
   #popular h2 {
     font-size: 33px;
   }
+  #popular .image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+  }
   #stories .white_bg {
     height: 190vh !important;
   }
@@ -1522,4 +1531,48 @@ article th {
   #trainer .single-trainer a img {
     width: 100%;
   }
+  #contact .heading_main h2 {
+    font-size: 38px;
+  }
+  .contact_section {
+    height: 197vh;
+  }
+  .contact_section #map iframe {
+    width: 100%;
+  }
+  .footer-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-box .footer-img {
+    text-align: center;
+  }
+  .footer-box .footer-adress .footer_blog {
+    text-align: center;
+  }
+  .footer-box .footer-adress .footer_blog .footer-text p {
+    text-align: center;
+  }
+  .footer-box .full {
+    padding: 0 152px;
+  }
+}
+
+.footer_blog .full .white_fonts {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
