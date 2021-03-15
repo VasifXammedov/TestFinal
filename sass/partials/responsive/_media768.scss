@@ -4,12 +4,13 @@
       .Read {
         .slider-text {
           top: 221px;
-          left: 7%;
+          left: 5%;
           font-size: 63px;
+         
         }
         .readmore_bt {
-          top: 384px !important;
-          margin-left: -47px;
+          top: 433px !important;
+          margin-left: -62px;
         }
       }
     }
@@ -20,9 +21,12 @@
         text-align: center;
       }
     }
+    .img-responsive{
+      display: none;
+    }
   }
   #popular {
-    height: 440vh;
+    height: 330vh;
     .image {
       display: flex;
       justify-content: center;
@@ -30,6 +34,10 @@
     }
   }
   #stories {
+    height: 100vh;
+    .img-responsive{
+      margin-top: -370px !important;
+    }
     .white_bg {
       height: 210vh !important;
     }
@@ -42,6 +50,10 @@
         }
       }
     }
+    .trainer-content{
+      display: flex;
+      justify-content: center;
+    }
   }
   #contact {
     .heading_main {
@@ -51,7 +63,7 @@
     }
   }
   .contact_section {
-    height: 200vh !important;
+    height:184vh !important;
     margin-top: 3px;
     #map {
       iframe {

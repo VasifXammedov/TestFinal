@@ -1,16 +1,38 @@
-@media only screen and(max-width:992px){
-    #fitness{
-
-        .half_bg_theme{
-            &::after{
-                width: 50%;
-                height: 46% !important;
-               
-            }
-        }
+@media only screen and(max-width:992px) {
+  #fitness {
+    .half_bg_theme {
+      &::after {
+        width: 50%;
+        height: 46% !important;
+      }
     }
-    #stories .container-fluid .white_bg {
+  }
+  #stories .container-fluid .white_bg {
     height: 160vh;
-}
-    
+  }
+  #carouselExampleIndicators {
+    .Read {
+      .slider-text {
+        width: 100%;
+        font-size: 75px;
+      }
+    }
+  }
+  #Services {
+    .img-responsive {
+      margin-top: -348px;
+    }
+  }
+  #trainer {
+    margin-top: 380px;
+  }
+  .contact_section {
+    height: 180vh;
+    .contact_form {
+   max-width: 100%;
+    margin-top: 192px;
+
+  }
+  }
+  
 }

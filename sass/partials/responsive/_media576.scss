@@ -1,9 +1,18 @@
 @media only screen and(max-width:576px) {
+   #navigation{
+      width: 44%;
+      #NavClose{
+          display: none;
+      }
+  }
   .Myslider {
     .Read {
       .slider-text {
         font-size: 54px !important;
-        margin-top: -68px;
+        margin-top: 40px;
+      }
+      .readmore_bt{
+        margin-left: -42px !important;
       }
     }
   }
@@ -26,7 +35,7 @@
     }
   }
   #popular {
-    height: 430vh;
+    height: 320vh;
     h2 {
       font-size: 33px;
     }
@@ -42,6 +51,9 @@
       h2 {
         font-size: 33px !important;
       }
+    }
+    .img-responsive {
+      margin-top: -300px !important;
     }
   }
   #trainer {

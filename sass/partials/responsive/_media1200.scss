@@ -1,6 +1,6 @@
 @media only screen and(max-width:1200px){
     .readmore_bt{
-        top: 700px !important; 
+        top: 550px !important; 
     }
     #stories .container-fluid .white_bg{
         height: 100vh;
@@ -8,5 +8,20 @@
             margin-top: 100px;
         }
     }
-    
+    #fitness{
+        img{
+            height: 107vh;
+        }
+    }
+    #popular{
+        height: 100vh;
+    }
+    #stories{
+        .white_bg{
+            height: 80vh !important;
+        }
+    }
+    #contacmail{
+        z-index: 15;
+    }
 }
